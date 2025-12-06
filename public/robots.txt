@@ -1,0 +1,13 @@
+# robots.txt for TenRusl ReactTS Admin Payment
+
+# Terapkan aturan ke semua user-agent (bot)
+User-agent: *
+
+# Izinkan crawling seluruh situs (tidak ada direktori yang diblokir)
+Disallow:
+
+# (Opsional) Blokir route internal tertentu jika nanti ada, misalnya:
+# Disallow: /api/
+# Disallow: /internal/
+
+Sitemap: https://example.com/sitemap.xml
