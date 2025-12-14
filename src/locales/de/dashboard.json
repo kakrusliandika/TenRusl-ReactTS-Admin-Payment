@@ -1,0 +1,52 @@
+{
+  "title": "Übersicht",
+  "subtitle": "Kurzüberblick über deine Zahlungsaktivität.",
+  "cards": {
+    "totalPayments": {
+      "label": "Gesamtanzahl Zahlungen",
+      "helpText": "Alle Zahlungen, die über den Simulator erstellt wurden."
+    },
+    "completed": {
+      "label": "Abgeschlossen",
+      "helpText": "Zahlungen, die erfolgreich verarbeitet wurden."
+    },
+    "pending": {
+      "label": "Ausstehend",
+      "helpText": "Zahlungen, die noch auf Bestätigung warten."
+    },
+    "failed": {
+      "label": "Fehlgeschlagen",
+      "helpText": "Zahlungen, die nicht abgeschlossen werden konnten."
+    },
+    "volume": {
+      "label": "Zahlungsvolumen",
+      "helpText": "Gesamter Zahlungsbetrag über alle Anbieter."
+    }
+  },
+  "charts": {
+    "byProvider": {
+      "title": "Volumen nach Anbieter",
+      "empty": "Noch keine Daten für die Aufschlüsselung nach Anbieter."
+    },
+    "byCurrency": {
+      "title": "Volumen nach Währung",
+      "empty": "Noch keine Daten für die Aufschlüsselung nach Währung."
+    }
+  },
+  "recent": {
+    "title": "Letzte Zahlungen",
+    "empty": "Noch keine Zahlungen. Erstelle auf der Seite „Zahlungen“ eine neue Zahlung."
+  },
+  "filters": {
+    "title": "Filter",
+    "dateRange": "Zeitraum",
+    "provider": "Anbieter",
+    "status": "Status",
+    "apply": "Filter anwenden",
+    "reset": "Filter zurücksetzen"
+  },
+  "meta": {
+    "lastUpdated": "Zuletzt aktualisiert",
+    "lastUpdatedAt": "Zuletzt aktualisiert am {{time}}"
+  }
+}

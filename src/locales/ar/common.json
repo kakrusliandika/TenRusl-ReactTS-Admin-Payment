@@ -1,0 +1,61 @@
+{
+  "appName": "لوحة تحكم TenRusl",
+  "appDescription": "لوحة الإدارة لمحاكي Webhook لمدفوعات TenRusl.",
+  "layout": {
+    "skipToContent": "تخطي إلى المحتوى الرئيسي",
+    "sidebarTitle": "التنقل",
+    "sidebarSubTitle": "محاكي Webhook للمدفوعات",
+    "themeToggle": "تبديل وضع الإضاءة والظلام",
+    "language": "اللغة"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "payments": "المدفوعات",
+    "users": "المستخدمون"
+  },
+  "actions": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "retry": "إعادة المحاولة",
+    "refresh": "تحديث",
+    "filter": "تصفية",
+    "clear": "مسح",
+    "export": "تصدير",
+    "view": "عرض",
+    "details": "التفاصيل",
+    "back": "رجوع"
+  },
+  "status": {
+    "active": "مفعل",
+    "inactive": "غير مفعل",
+    "loading": "جارٍ التحميل",
+    "error": "خطأ",
+    "success": "ناجح",
+    "empty": "لا توجد بيانات متاحة"
+  },
+  "table": {
+    "noData": "لا توجد بيانات للعرض",
+    "loading": "جارٍ تحميل البيانات…",
+    "pageInfo": "الصفحة {{current}} من {{total}}",
+    "rowsPerPage": "عدد الصفوف في كل صفحة"
+  },
+  "form": {
+    "required": "هذا الحقل مطلوب.",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صالح.",
+    "minLength": "يرجى إدخال ما لا يقل عن {{min}} حرفًا.",
+    "maxLength": "يرجى إدخال ما لا يزيد عن {{max}} حرفًا.",
+    "numberOnly": "يرجى إدخال رقم صالح.",
+    "positiveNumber": "يرجى إدخال رقم أكبر من الصفر."
+  },
+  "toast": {
+    "successTitle": "تم بنجاح",
+    "errorTitle": "حدث خطأ ما",
+    "paymentCreated": "تم إنشاء الدفع.",
+    "paymentUpdated": "تم تحديث الدفع.",
+    "paymentFailed": "تعذر إنشاء الدفع.",
+    "genericError": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى."
+  }
+}

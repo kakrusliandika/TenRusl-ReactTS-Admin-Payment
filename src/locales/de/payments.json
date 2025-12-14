@@ -1,0 +1,166 @@
+{
+  "title": "Zahlungen",
+  "subtitle": "Erstelle und inspiziere simulierte Zahlungen über verschiedene Anbieter.",
+  "page": {
+    "intro": "Erstelle simulierte Zahlungen und verfolge ihren Lebenszyklus über unterschiedliche Zahlungsanbieter.",
+    "shortcuts": "Tastenkürzel: Strg+Umschalt+N zum Formular, Strg+Umschalt+L zur Zahlungsliste."
+  },
+  "create": {
+    "title": "Zahlung erstellen",
+    "subtitle": "Simuliere eine neue Zahlung mit einem der unterstützten Anbieter.",
+    "submit": "Zahlung erstellen",
+    "error": {
+      "title": "Erstellen der Zahlung fehlgeschlagen",
+      "generic": "Die Zahlung konnte nicht erstellt werden. Bitte versuche es erneut."
+    },
+    "success": {
+      "title": "Zahlung erstellt",
+      "body": "Die simulierte Zahlung wurde erfolgreich erstellt."
+    }
+  },
+  "fields": {
+    "provider": {
+      "label": "Anbieter",
+      "placeholder": "Anbieter auswählen",
+      "helper": "Wähle den Zahlungsanbieter, den du simulieren möchtest."
+    },
+    "currency": {
+      "label": "Währung"
+    },
+    "amount": {
+      "label": "Betrag",
+      "helper": "Nur positive Werte verwenden. Der Simulator belastet kein echtes Geld."
+    },
+    "orderId": {
+      "label": "Bestell-ID",
+      "helper": "Optionale Referenz, um diese Zahlung mit deinem System zu verknüpfen."
+    },
+    "description": {
+      "label": "Beschreibung",
+      "helper": "Optionale Beschreibung, die in Logs oder der Simulator-Oberfläche angezeigt wird."
+    }
+  },
+  "providers": {
+    "all": "Alle Anbieter",
+    "xendit": "Xendit",
+    "midtrans": "Midtrans",
+    "tripay": "Tripay",
+    "mock": "Mock",
+    "airwallex": "Airwallex",
+    "paypal": "PayPal",
+    "stripe": "Stripe",
+    "skrill": "Skrill",
+    "payoneer": "Payoneer",
+    "paddle": "Paddle",
+    "oy": "OY!",
+    "dana": "DANA",
+    "doku": "DOKU",
+    "lemonsqueezy": "Lemon Squeezy",
+    "amazon_bwp": "Amazon BWP"
+  },
+  "status": {
+    "all": "Alle Status",
+    "created": "Erstellt",
+    "pending": "Ausstehend",
+    "completed": "Abgeschlossen",
+    "succeeded": "Erfolgreich",
+    "failed": "Fehlgeschlagen",
+    "cancelled": "Storniert",
+    "expired": "Abgelaufen",
+    "refunded": "Erstattet",
+    "chargeback": "Rückbuchung",
+    "unknown": "Unbekannt"
+  },
+  "filters": {
+    "provider": {
+      "label": "Anbieter",
+      "placeholder": "Alle Anbieter"
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Alle Status"
+    },
+    "dateFrom": {
+      "label": "Von"
+    },
+    "dateTo": {
+      "label": "Bis"
+    },
+    "search": "Suche",
+    "searchPlaceholder": "Nach ID, Provider-Referenz oder Beschreibung suchen",
+    "reset": "Filter zurücksetzen"
+  },
+  "table": {
+    "title": "Zahlungen",
+    "subtitle": "Liste der simulierten Zahlungen, die über die Webhook-Demo erstellt wurden.",
+    "empty": "Keine Zahlungen gefunden. Passe die Filter an oder erstelle eine neue Zahlung.",
+    "columns": {
+      "id": "ID",
+      "provider": "Anbieter",
+      "providerRef": "Provider-Referenz",
+      "amount": "Betrag",
+      "currency": "Währung",
+      "status": "Status",
+      "createdAt": "Erstellt am",
+      "updatedAt": "Aktualisiert am",
+      "actions": "Aktionen"
+    },
+    "actions": {
+      "view": "Anzeigen",
+      "refresh": "Status aktualisieren",
+      "refreshAria": "Zahlungsstatus aktualisieren",
+      "refreshing": "Aktualisiere…",
+      "copyId": "ID kopieren"
+    }
+  },
+  "details": {
+    "title": "Zahlungsdetails",
+    "webhookSectionTitle": "Webhook-Ereignisse",
+    "noWebhooks": "Für diese Zahlung wurden noch keine Webhook-Ereignisse empfangen.",
+    "openInProvider": "Im Provider-Dashboard öffnen"
+  },
+  "form": {
+    "sectionTitle": "Zahlung erstellen",
+    "sectionDescription": "Sende eine neue Zahlungsanfrage an den TenRusl Payment Webhook Simulator.",
+    "provider": {
+      "label": "Anbieter",
+      "placeholder": "Anbieter auswählen",
+      "help": "Wähle, welchen Zahlungsanbieter du simulieren möchtest."
+    },
+    "amount": {
+      "label": "Betrag",
+      "placeholder": "Betrag eingeben",
+      "help": "Gesamtbetrag der Belastung. Verwende die gleiche Währung wie im Anbieter konfiguriert."
+    },
+    "currency": {
+      "label": "Währung",
+      "placeholder": "z. B. IDR, USD, EUR",
+      "help": "Dreistelliger Währungscode."
+    },
+    "description": {
+      "label": "Beschreibung",
+      "placeholder": "Kurze Beschreibung für diese Zahlung",
+      "help": "Wird im Provider-Dashboard und im Webhook-Payload angezeigt."
+    },
+    "orderId": {
+      "label": "Bestell-ID",
+      "placeholder": "Eindeutige Bestellreferenz",
+      "help": "Du kannst deine eigene interne Bestell-ID oder Referenznummer verwenden."
+    },
+    "metadata": {
+      "label": "Metadaten",
+      "placeholder": "Optionale JSON-Metadaten",
+      "help": "Zusätzliche Felder, die im Webhook-Payload enthalten sind (muss gültiges JSON sein)."
+    },
+    "submit": "Zahlung erstellen",
+    "submitting": "Zahlung wird erstellt…"
+  },
+  "formValidation": {
+    "providerRequired": "Bitte einen Anbieter auswählen.",
+    "amountRequired": "Betrag ist erforderlich.",
+    "amountPositive": "Der Betrag muss größer als Null sein.",
+    "currencyRequired": "Währung ist erforderlich.",
+    "orderIdRequired": "Bestell-ID ist erforderlich.",
+    "metadataInvalidJson": "Metadaten müssen gültiges JSON sein."
+  }
+}

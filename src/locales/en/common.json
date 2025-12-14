@@ -1,0 +1,61 @@
+{
+  "appName": "TenRusl Admin",
+  "appDescription": "Admin console for the TenRusl Payment Webhook Simulator.",
+  "layout": {
+    "skipToContent": "Skip to main content",
+    "sidebarTitle": "Navigation",
+    "sidebarSubTitle": "Payment Webhook Simulator",
+    "themeToggle": "Toggle light and dark theme",
+    "language": "Language"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "payments": "Payments",
+    "users": "Users"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "retry": "Retry",
+    "refresh": "Refresh",
+    "filter": "Filter",
+    "clear": "Clear",
+    "export": "Export",
+    "view": "View",
+    "details": "Details",
+    "back": "Back"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "empty": "No data available"
+  },
+  "table": {
+    "noData": "No data to display",
+    "loading": "Loading data…",
+    "pageInfo": "Page {{current}} of {{total}}",
+    "rowsPerPage": "Rows per page"
+  },
+  "form": {
+    "required": "This field is required.",
+    "invalidEmail": "Please enter a valid email address.",
+    "minLength": "Please enter at least {{min}} characters.",
+    "maxLength": "Please enter no more than {{max}} characters.",
+    "numberOnly": "Please enter a valid number.",
+    "positiveNumber": "Please enter a positive number."
+  },
+  "toast": {
+    "successTitle": "Success",
+    "errorTitle": "Something went wrong",
+    "paymentCreated": "Payment has been created.",
+    "paymentUpdated": "Payment has been updated.",
+    "paymentFailed": "Unable to create payment.",
+    "genericError": "An unexpected error occurred. Please try again."
+  }
+}

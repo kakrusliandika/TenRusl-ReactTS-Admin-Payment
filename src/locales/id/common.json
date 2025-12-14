@@ -1,0 +1,61 @@
+{
+  "appName": "TenRusl Admin",
+  "appDescription": "Konsol admin untuk TenRusl Payment Webhook Simulator.",
+  "layout": {
+    "skipToContent": "Lewati ke konten utama",
+    "sidebarTitle": "Navigasi",
+    "sidebarSubTitle": "Payment Webhook Simulator",
+    "themeToggle": "Ganti tema terang/gelap",
+    "language": "Bahasa"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "payments": "Pembayaran",
+    "users": "Pengguna"
+  },
+  "actions": {
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Ubah",
+    "close": "Tutup",
+    "retry": "Coba lagi",
+    "refresh": "Muat ulang",
+    "filter": "Filter",
+    "clear": "Bersihkan",
+    "export": "Ekspor",
+    "view": "Lihat",
+    "details": "Detail",
+    "back": "Kembali"
+  },
+  "status": {
+    "active": "Aktif",
+    "inactive": "Tidak aktif",
+    "loading": "Memuat",
+    "error": "Terjadi kesalahan",
+    "success": "Berhasil",
+    "empty": "Tidak ada data"
+  },
+  "table": {
+    "noData": "Tidak ada data untuk ditampilkan",
+    "loading": "Sedang memuat data…",
+    "pageInfo": "Halaman {{current}} dari {{total}}",
+    "rowsPerPage": "Baris per halaman"
+  },
+  "form": {
+    "required": "Kolom ini wajib diisi.",
+    "invalidEmail": "Silakan masukkan alamat email yang valid.",
+    "minLength": "Masukkan minimal {{min}} karakter.",
+    "maxLength": "Masukkan maksimal {{max}} karakter.",
+    "numberOnly": "Silakan masukkan angka yang valid.",
+    "positiveNumber": "Silakan masukkan angka positif."
+  },
+  "toast": {
+    "successTitle": "Berhasil",
+    "errorTitle": "Terjadi kesalahan",
+    "paymentCreated": "Pembayaran berhasil dibuat.",
+    "paymentUpdated": "Pembayaran berhasil diperbarui.",
+    "paymentFailed": "Gagal membuat pembayaran.",
+    "genericError": "Terjadi kesalahan yang tidak terduga. Silakan coba lagi."
+  }
+}

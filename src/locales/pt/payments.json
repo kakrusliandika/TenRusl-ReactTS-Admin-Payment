@@ -1,0 +1,93 @@
+{
+  "title": "Pagamentos",
+  "subtitle": "Crie e analise pagamentos simulados em vários provedores.",
+  "form": {
+    "sectionTitle": "Criar pagamento",
+    "sectionDescription": "Envie uma nova solicitação de pagamento para o Simulador de Webhook de Pagamentos TenRusl.",
+    "provider": {
+      "label": "Provedor",
+      "placeholder": "Selecione um provedor",
+      "help": "Escolha qual gateway de pagamento você deseja simular."
+    },
+    "amount": {
+      "label": "Valor",
+      "placeholder": "Informe o valor",
+      "help": "Valor total a cobrar. Use a mesma moeda configurada no provedor."
+    },
+    "currency": {
+      "label": "Moeda",
+      "placeholder": "ex.: BRL, USD, EUR",
+      "help": "Código de moeda com três letras."
+    },
+    "description": {
+      "label": "Descrição",
+      "placeholder": "Breve descrição para este pagamento",
+      "help": "Mostrada no painel do provedor e no payload do webhook."
+    },
+    "orderId": {
+      "label": "ID do pedido",
+      "placeholder": "Referência única do pedido",
+      "help": "Use o seu próprio ID interno de pedido ou número de referência."
+    },
+    "metadata": {
+      "label": "Metadados",
+      "placeholder": "Metadados JSON opcionais",
+      "help": "Campos extras para incluir no payload do webhook (deve ser JSON válido)."
+    },
+    "submit": "Criar pagamento",
+    "submitting": "Criando pagamento…"
+  },
+  "formValidation": {
+    "providerRequired": "Selecione um provedor.",
+    "amountRequired": "O valor é obrigatório.",
+    "amountPositive": "O valor deve ser maior que zero.",
+    "currencyRequired": "A moeda é obrigatória.",
+    "orderIdRequired": "O ID do pedido é obrigatório.",
+    "metadataInvalidJson": "Os metadados devem ser um JSON válido."
+  },
+  "status": {
+    "created": "Criado",
+    "pending": "Pendente",
+    "completed": "Concluído",
+    "failed": "Falhou",
+    "cancelled": "Cancelado",
+    "expired": "Expirado",
+    "refunded": "Reembolsado",
+    "chargeback": "Chargeback",
+    "unknown": "Desconhecido"
+  },
+  "filters": {
+    "title": "Filtros",
+    "provider": "Provedor",
+    "status": "Status",
+    "dateRange": "Período",
+    "search": "Pesquisa",
+    "searchPlaceholder": "Pesquisar por ID, referência do provedor ou descrição"
+  },
+  "table": {
+    "title": "Lista de pagamentos",
+    "empty": "Ainda não há pagamentos. Crie um novo pagamento usando o formulário acima.",
+    "columns": {
+      "id": "ID",
+      "provider": "Provedor",
+      "providerRef": "Referência do provedor",
+      "amount": "Valor",
+      "currency": "Moeda",
+      "status": "Status",
+      "createdAt": "Criado em",
+      "updatedAt": "Atualizado em",
+      "actions": "Ações"
+    },
+    "actions": {
+      "view": "Ver",
+      "refreshStatus": "Atualizar status",
+      "copyId": "Copiar ID"
+    }
+  },
+  "details": {
+    "title": "Detalhes do pagamento",
+    "webhookSectionTitle": "Eventos de webhook",
+    "noWebhooks": "Ainda não há eventos de webhook recebidos para este pagamento.",
+    "openInProvider": "Abrir no painel do provedor"
+  }
+}

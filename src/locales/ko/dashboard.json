@@ -1,0 +1,52 @@
+{
+  "title": "개요",
+  "subtitle": "전체 결제 활동을 한눈에 확인할 수 있습니다.",
+  "cards": {
+    "totalPayments": {
+      "label": "전체 결제 건수",
+      "helpText": "시뮬레이터를 통해 생성된 모든 결제입니다."
+    },
+    "completed": {
+      "label": "완료",
+      "helpText": "성공적으로 처리된 결제입니다."
+    },
+    "pending": {
+      "label": "대기 중",
+      "helpText": "아직 확정되지 않은 결제입니다."
+    },
+    "failed": {
+      "label": "실패",
+      "helpText": "완료되지 못한 결제입니다."
+    },
+    "volume": {
+      "label": "결제 금액 합계",
+      "helpText": "모든 제공사에서 처리된 결제 금액의 합계입니다."
+    }
+  },
+  "charts": {
+    "byProvider": {
+      "title": "제공사별 결제 금액",
+      "empty": "제공사별 데이터가 아직 없습니다."
+    },
+    "byCurrency": {
+      "title": "통화별 결제 금액",
+      "empty": "통화별 데이터가 아직 없습니다."
+    }
+  },
+  "recent": {
+    "title": "최근 결제",
+    "empty": "최근 결제가 없습니다. 결제 페이지에서 새 결제를 생성해 보세요."
+  },
+  "filters": {
+    "title": "필터",
+    "dateRange": "날짜 범위",
+    "provider": "제공사",
+    "status": "상태",
+    "apply": "필터 적용",
+    "reset": "필터 초기화"
+  },
+  "meta": {
+    "lastUpdated": "마지막 업데이트",
+    "lastUpdatedAt": "마지막 업데이트 시각 {{time}}"
+  }
+}

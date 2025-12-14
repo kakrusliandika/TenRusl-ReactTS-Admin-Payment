@@ -1,0 +1,93 @@
+{
+  "title": "Pembayaran",
+  "subtitle": "Buat dan lihat pembayaran simulasi dari berbagai penyedia.",
+  "form": {
+    "sectionTitle": "Buat pembayaran",
+    "sectionDescription": "Kirim permintaan pembayaran baru ke TenRusl Payment Webhook Simulator.",
+    "provider": {
+      "label": "Penyedia",
+      "placeholder": "Pilih penyedia",
+      "help": "Pilih gateway pembayaran yang ingin Anda simulasikan."
+    },
+    "amount": {
+      "label": "Nominal",
+      "placeholder": "Masukkan nominal",
+      "help": "Total nominal yang akan ditagihkan. Gunakan mata uang yang sama dengan yang dikonfigurasi di penyedia."
+    },
+    "currency": {
+      "label": "Mata uang",
+      "placeholder": "mis. IDR, USD, EUR",
+      "help": "Kode mata uang tiga huruf."
+    },
+    "description": {
+      "label": "Deskripsi",
+      "placeholder": "Deskripsi singkat untuk pembayaran ini",
+      "help": "Ditampilkan di dashboard penyedia dan di payload webhook."
+    },
+    "orderId": {
+      "label": "ID Pesanan",
+      "placeholder": "Referensi pesanan unik",
+      "help": "Gunakan ID pesanan internal atau nomor referensi Anda sendiri."
+    },
+    "metadata": {
+      "label": "Metadata",
+      "placeholder": "Metadata JSON opsional",
+      "help": "Field tambahan yang akan disertakan di payload webhook (harus JSON valid)."
+    },
+    "submit": "Buat pembayaran",
+    "submitting": "Sedang membuat pembayaran…"
+  },
+  "formValidation": {
+    "providerRequired": "Silakan pilih penyedia.",
+    "amountRequired": "Nominal wajib diisi.",
+    "amountPositive": "Nominal harus lebih besar dari nol.",
+    "currencyRequired": "Mata uang wajib diisi.",
+    "orderIdRequired": "ID pesanan wajib diisi.",
+    "metadataInvalidJson": "Metadata harus berisi JSON yang valid."
+  },
+  "status": {
+    "created": "Dibuat",
+    "pending": "Tertunda",
+    "completed": "Selesai",
+    "failed": "Gagal",
+    "cancelled": "Dibatalkan",
+    "expired": "Kedaluwarsa",
+    "refunded": "Dikembalikan",
+    "chargeback": "Chargeback",
+    "unknown": "Tidak diketahui"
+  },
+  "filters": {
+    "title": "Filter",
+    "provider": "Penyedia",
+    "status": "Status",
+    "dateRange": "Rentang tanggal",
+    "search": "Cari",
+    "searchPlaceholder": "Cari berdasarkan ID, referensi penyedia, atau deskripsi"
+  },
+  "table": {
+    "title": "Daftar pembayaran",
+    "empty": "Belum ada pembayaran. Buat pembayaran baru menggunakan formulir di atas.",
+    "columns": {
+      "id": "ID",
+      "provider": "Penyedia",
+      "providerRef": "Referensi penyedia",
+      "amount": "Nominal",
+      "currency": "Mata uang",
+      "status": "Status",
+      "createdAt": "Dibuat pada",
+      "updatedAt": "Diperbarui pada",
+      "actions": "Aksi"
+    },
+    "actions": {
+      "view": "Lihat",
+      "refreshStatus": "Perbarui status",
+      "copyId": "Salin ID"
+    }
+  },
+  "details": {
+    "title": "Detail pembayaran",
+    "webhookSectionTitle": "Riwayat webhook",
+    "noWebhooks": "Belum ada event webhook yang diterima untuk pembayaran ini.",
+    "openInProvider": "Buka di dashboard penyedia"
+  }
+}

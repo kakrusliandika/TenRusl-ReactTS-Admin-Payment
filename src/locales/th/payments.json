@@ -1,0 +1,93 @@
+{
+  "title": "การชำระเงิน",
+  "subtitle": "สร้างและตรวจสอบการชำระเงินจำลองจากหลากหลายผู้ให้บริการ",
+  "form": {
+    "sectionTitle": "สร้างการชำระเงิน",
+    "sectionDescription": "ส่งคำขอการชำระเงินใหม่ไปยัง TenRusl Payment Webhook Simulator",
+    "provider": {
+      "label": "ผู้ให้บริการ",
+      "placeholder": "เลือกผู้ให้บริการ",
+      "help": "เลือกเกตเวย์การชำระเงินที่คุณต้องการจำลอง"
+    },
+    "amount": {
+      "label": "จำนวนเงิน",
+      "placeholder": "กรอกจำนวนเงิน",
+      "help": "ยอดรวมที่ต้องการเรียกเก็บ ใช้สกุลเงินเดียวกับที่ตั้งค่าในผู้ให้บริการ"
+    },
+    "currency": {
+      "label": "สกุลเงิน",
+      "placeholder": "เช่น IDR, USD, EUR",
+      "help": "รหัสสกุลเงินแบบสามตัวอักษร"
+    },
+    "description": {
+      "label": "คำอธิบาย",
+      "placeholder": "คำอธิบายสั้น ๆ สำหรับการชำระเงินนี้",
+      "help": "จะแสดงในแดชบอร์ดของผู้ให้บริการและใน payload ของ webhook"
+    },
+    "orderId": {
+      "label": "รหัสคำสั่งซื้อ",
+      "placeholder": "รหัสคำสั่งซื้อที่ไม่ซ้ำกัน",
+      "help": "คุณสามารถใช้รหัสคำสั่งซื้อหรือหมายเลขอ้างอิงภายในระบบของคุณเอง"
+    },
+    "metadata": {
+      "label": "ข้อมูลเพิ่มเติม (Metadata)",
+      "placeholder": "Metadata แบบ JSON (ไม่บังคับ)",
+      "help": "ฟิลด์เพิ่มเติมที่จะใส่ใน payload ของ webhook (ต้องเป็น JSON ที่ถูกต้อง)"
+    },
+    "submit": "สร้างการชำระเงิน",
+    "submitting": "กำลังสร้างการชำระเงิน…"
+  },
+  "formValidation": {
+    "providerRequired": "กรุณาเลือกผู้ให้บริการ",
+    "amountRequired": "กรุณากรอกจำนวนเงิน",
+    "amountPositive": "จำนวนเงินต้องมากกว่า 0",
+    "currencyRequired": "กรุณาเลือกสกุลเงิน",
+    "orderIdRequired": "กรุณากรอกรหัสคำสั่งซื้อ",
+    "metadataInvalidJson": "Metadata ต้องเป็น JSON ที่ถูกต้อง"
+  },
+  "status": {
+    "created": "สร้างแล้ว",
+    "pending": "รอดำเนินการ",
+    "completed": "สำเร็จ",
+    "failed": "ไม่สำเร็จ",
+    "cancelled": "ยกเลิกแล้ว",
+    "expired": "หมดอายุ",
+    "refunded": "คืนเงินแล้ว",
+    "chargeback": "เรียกเก็บเงินคืน",
+    "unknown": "ไม่ทราบ"
+  },
+  "filters": {
+    "title": "ตัวกรอง",
+    "provider": "ผู้ให้บริการ",
+    "status": "สถานะ",
+    "dateRange": "ช่วงวันที่",
+    "search": "ค้นหา",
+    "searchPlaceholder": "ค้นหาด้วย ID, reference ของผู้ให้บริการ หรือคำอธิบาย"
+  },
+  "table": {
+    "title": "รายการการชำระเงิน",
+    "empty": "ยังไม่มีการชำระเงิน สร้างการชำระเงินใหม่โดยใช้ฟอร์มด้านบน",
+    "columns": {
+      "id": "ID",
+      "provider": "ผู้ให้บริการ",
+      "providerRef": "รหัสอ้างอิงของผู้ให้บริการ",
+      "amount": "จำนวนเงิน",
+      "currency": "สกุลเงิน",
+      "status": "สถานะ",
+      "createdAt": "สร้างเมื่อ",
+      "updatedAt": "อัปเดตเมื่อ",
+      "actions": "การทำงาน"
+    },
+    "actions": {
+      "view": "ดู",
+      "refreshStatus": "รีเฟรชสถานะ",
+      "copyId": "คัดลอก ID"
+    }
+  },
+  "details": {
+    "title": "รายละเอียดการชำระเงิน",
+    "webhookSectionTitle": "เหตุการณ์ Webhook",
+    "noWebhooks": "ยังไม่มีเหตุการณ์ webhook สำหรับการชำระเงินนี้",
+    "openInProvider": "เปิดในแดชบอร์ดของผู้ให้บริการ"
+  }
+}

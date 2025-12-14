@@ -1,0 +1,114 @@
+{
+  "page": {
+    "intro": "異なるプロバイダーを使ってテスト決済を作成し、そのライフサイクルを確認できます。",
+    "shortcuts": "キーボードショートカット: Ctrl+Shift+N で作成フォームへ移動、Ctrl+Shift+L で決済一覧へ移動。"
+  },
+  "create": {
+    "title": "決済を作成",
+    "subtitle": "対応しているプロバイダーを使って新しいテスト決済をシミュレートします。",
+    "submit": "決済を作成",
+    "submitting": "決済を作成中…",
+    "success": {
+      "title": "決済を作成しました",
+      "body": "テスト決済が正常に作成されました。"
+    },
+    "error": {
+      "title": "決済作成に失敗しました",
+      "generic": "決済を作成できませんでした。もう一度お試しください。"
+    }
+  },
+  "fields": {
+    "provider": {
+      "label": "プロバイダー",
+      "placeholder": "プロバイダーを選択",
+      "helper": "シミュレートしたい決済ゲートウェイを選択してください。"
+    },
+    "amount": {
+      "label": "金額",
+      "helper": "正の金額のみを入力してください。このシミュレーターでは実際の決済は行われません。"
+    },
+    "currency": {
+      "label": "通貨",
+      "placeholder": "例: IDR, USD, EUR",
+      "helper": "3 文字の通貨コードを入力してください。"
+    },
+    "description": {
+      "label": "説明",
+      "placeholder": "この決済の簡単な説明",
+      "helper": "ログやシミュレーター UI に表示される任意の説明です。"
+    },
+    "orderId": {
+      "label": "注文 ID",
+      "placeholder": "一意の注文番号",
+      "helper": "自分のシステム内で使っている注文 ID や参照番号を指定できます。"
+    }
+  },
+  "providers": {
+    "all": "すべてのプロバイダー",
+    "xendit": "Xendit",
+    "midtrans": "Midtrans",
+    "tripay": "Tripay",
+    "mock": "モック",
+    "airwallex": "Airwallex",
+    "paypal": "PayPal",
+    "stripe": "Stripe",
+    "skrill": "Skrill",
+    "payoneer": "Payoneer",
+    "paddle": "Paddle",
+    "oy": "OY!",
+    "dana": "DANA",
+    "doku": "DOKU",
+    "lemonsqueezy": "Lemon Squeezy",
+    "amazon_bwp": "Amazon BWP"
+  },
+  "status": {
+    "all": "すべてのステータス",
+    "created": "作成済み",
+    "pending": "保留中",
+    "succeeded": "成功",
+    "completed": "完了",
+    "failed": "失敗",
+    "cancelled": "キャンセル",
+    "canceled": "キャンセル",
+    "expired": "期限切れ",
+    "refunded": "返金済み",
+    "partial_refund": "一部返金",
+    "chargeback": "チャージバック",
+    "unknown": "不明"
+  },
+  "filters": {
+    "provider": {
+      "label": "プロバイダー",
+      "placeholder": "すべてのプロバイダー"
+    },
+    "status": {
+      "label": "ステータス",
+      "placeholder": "すべてのステータス"
+    },
+    "dateFrom": {
+      "label": "開始日"
+    },
+    "dateTo": {
+      "label": "終了日"
+    },
+    "reset": "フィルターをリセット"
+  },
+  "table": {
+    "title": "決済一覧",
+    "subtitle": "Webhook デモを通じて作成されたテスト決済の一覧です。",
+    "empty": "決済がありません。フィルターを変更するか、新しい決済を作成してください。",
+    "columns": {
+      "id": "ID",
+      "provider": "プロバイダー",
+      "providerRef": "プロバイダー参照",
+      "amount": "金額",
+      "status": "ステータス",
+      "createdAt": "作成日時"
+    },
+    "actions": {
+      "refresh": "ステータスを更新",
+      "refreshing": "更新中…",
+      "refreshAria": "決済ステータスを更新"
+    }
+  }
+}

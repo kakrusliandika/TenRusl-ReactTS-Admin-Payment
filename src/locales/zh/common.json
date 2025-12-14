@@ -1,0 +1,61 @@
+{
+  "appName": "TenRusl 管理后台",
+  "appDescription": "TenRusl 支付 Webhook 模拟器的管理控制台。",
+  "layout": {
+    "skipToContent": "跳转到主要内容",
+    "sidebarTitle": "导航",
+    "sidebarSubTitle": "支付 Webhook 模拟器",
+    "themeToggle": "切换明暗主题",
+    "language": "语言"
+  },
+  "nav": {
+    "dashboard": "仪表盘",
+    "payments": "支付",
+    "users": "用户"
+  },
+  "actions": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "retry": "重试",
+    "refresh": "刷新",
+    "filter": "筛选",
+    "clear": "清除",
+    "export": "导出",
+    "view": "查看",
+    "details": "详情",
+    "back": "返回"
+  },
+  "status": {
+    "active": "启用",
+    "inactive": "停用",
+    "loading": "加载中",
+    "error": "错误",
+    "success": "成功",
+    "empty": "暂无数据"
+  },
+  "table": {
+    "noData": "暂无可显示的数据",
+    "loading": "正在加载数据…",
+    "pageInfo": "第 {{current}} 页，共 {{total}} 页",
+    "rowsPerPage": "每页行数"
+  },
+  "form": {
+    "required": "此字段为必填项。",
+    "invalidEmail": "请输入有效的电子邮箱地址。",
+    "minLength": "请输入至少 {{min}} 个字符。",
+    "maxLength": "请输入不超过 {{max}} 个字符。",
+    "numberOnly": "请输入有效数字。",
+    "positiveNumber": "请输入大于 0 的数字。"
+  },
+  "toast": {
+    "successTitle": "操作成功",
+    "errorTitle": "发生错误",
+    "paymentCreated": "支付已创建。",
+    "paymentUpdated": "支付已更新。",
+    "paymentFailed": "无法创建支付。",
+    "genericError": "发生未知错误，请稍后重试。"
+  }
+}

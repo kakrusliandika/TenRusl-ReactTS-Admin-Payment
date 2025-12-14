@@ -1,0 +1,93 @@
+{
+  "title": "Payments",
+  "subtitle": "Create and inspect simulated payments across multiple providers.",
+  "form": {
+    "sectionTitle": "Create payment",
+    "sectionDescription": "Send a new payment request to the TenRusl Payment Webhook Simulator.",
+    "provider": {
+      "label": "Provider",
+      "placeholder": "Select a provider",
+      "help": "Choose which payment gateway you want to simulate."
+    },
+    "amount": {
+      "label": "Amount",
+      "placeholder": "Enter amount",
+      "help": "Total amount to charge. Use the same currency as configured on the provider."
+    },
+    "currency": {
+      "label": "Currency",
+      "placeholder": "e.g. IDR, USD, EUR",
+      "help": "Three-letter currency code."
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Short description for this payment",
+      "help": "Shown in the provider dashboard and webhook payload."
+    },
+    "orderId": {
+      "label": "Order ID",
+      "placeholder": "Unique order reference",
+      "help": "You can use your own internal order ID or reference number."
+    },
+    "metadata": {
+      "label": "Metadata",
+      "placeholder": "Optional JSON metadata",
+      "help": "Extra fields to include in the webhook payload (must be valid JSON)."
+    },
+    "submit": "Create payment",
+    "submitting": "Creating payment…"
+  },
+  "formValidation": {
+    "providerRequired": "Please select a provider.",
+    "amountRequired": "Amount is required.",
+    "amountPositive": "Amount must be greater than zero.",
+    "currencyRequired": "Currency is required.",
+    "orderIdRequired": "Order ID is required.",
+    "metadataInvalidJson": "Metadata must be valid JSON."
+  },
+  "status": {
+    "created": "Created",
+    "pending": "Pending",
+    "completed": "Completed",
+    "failed": "Failed",
+    "cancelled": "Cancelled",
+    "expired": "Expired",
+    "refunded": "Refunded",
+    "chargeback": "Chargeback",
+    "unknown": "Unknown"
+  },
+  "filters": {
+    "title": "Filters",
+    "provider": "Provider",
+    "status": "Status",
+    "dateRange": "Date range",
+    "search": "Search",
+    "searchPlaceholder": "Search by ID, provider ref, or description"
+  },
+  "table": {
+    "title": "Payment list",
+    "empty": "No payments yet. Create a new payment using the form above.",
+    "columns": {
+      "id": "ID",
+      "provider": "Provider",
+      "providerRef": "Provider reference",
+      "amount": "Amount",
+      "currency": "Currency",
+      "status": "Status",
+      "createdAt": "Created at",
+      "updatedAt": "Updated at",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View",
+      "refreshStatus": "Refresh status",
+      "copyId": "Copy ID"
+    }
+  },
+  "details": {
+    "title": "Payment details",
+    "webhookSectionTitle": "Webhook events",
+    "noWebhooks": "No webhook events received yet for this payment.",
+    "openInProvider": "Open in provider dashboard"
+  }
+}

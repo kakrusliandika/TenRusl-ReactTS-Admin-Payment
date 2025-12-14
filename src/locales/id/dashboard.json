@@ -1,0 +1,52 @@
+{
+  "title": "Ringkasan",
+  "subtitle": "Gambaran singkat aktivitas pembayaran Anda.",
+  "cards": {
+    "totalPayments": {
+      "label": "Total pembayaran",
+      "helpText": "Semua pembayaran yang dibuat melalui simulator."
+    },
+    "completed": {
+      "label": "Selesai",
+      "helpText": "Pembayaran yang berhasil diproses."
+    },
+    "pending": {
+      "label": "Tertunda",
+      "helpText": "Pembayaran yang masih menunggu konfirmasi."
+    },
+    "failed": {
+      "label": "Gagal",
+      "helpText": "Pembayaran yang tidak dapat diselesaikan."
+    },
+    "volume": {
+      "label": "Total volume pembayaran",
+      "helpText": "Total nominal pembayaran di semua penyedia."
+    }
+  },
+  "charts": {
+    "byProvider": {
+      "title": "Volume per penyedia",
+      "empty": "Belum ada data untuk ringkasan per penyedia."
+    },
+    "byCurrency": {
+      "title": "Volume per mata uang",
+      "empty": "Belum ada data untuk ringkasan per mata uang."
+    }
+  },
+  "recent": {
+    "title": "Pembayaran terbaru",
+    "empty": "Belum ada pembayaran terbaru. Buat pembayaran baru dari halaman Pembayaran."
+  },
+  "filters": {
+    "title": "Filter",
+    "dateRange": "Rentang tanggal",
+    "provider": "Penyedia",
+    "status": "Status",
+    "apply": "Terapkan filter",
+    "reset": "Atur ulang filter"
+  },
+  "meta": {
+    "lastUpdated": "Terakhir diperbarui",
+    "lastUpdatedAt": "Terakhir diperbarui pada {{time}}"
+  }
+}

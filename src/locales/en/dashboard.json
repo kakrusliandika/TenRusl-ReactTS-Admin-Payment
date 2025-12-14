@@ -1,0 +1,52 @@
+{
+  "title": "Overview",
+  "subtitle": "High-level snapshot of your payment activity.",
+  "cards": {
+    "totalPayments": {
+      "label": "Total payments",
+      "helpText": "All payments created via the simulator."
+    },
+    "completed": {
+      "label": "Completed",
+      "helpText": "Payments that were processed successfully."
+    },
+    "pending": {
+      "label": "Pending",
+      "helpText": "Payments that are still waiting for confirmation."
+    },
+    "failed": {
+      "label": "Failed",
+      "helpText": "Payments that could not be completed."
+    },
+    "volume": {
+      "label": "Payment volume",
+      "helpText": "Total payment amount across all providers."
+    }
+  },
+  "charts": {
+    "byProvider": {
+      "title": "Volume by provider",
+      "empty": "No data yet for provider breakdown."
+    },
+    "byCurrency": {
+      "title": "Volume by currency",
+      "empty": "No data yet for currency breakdown."
+    }
+  },
+  "recent": {
+    "title": "Recent payments",
+    "empty": "No recent payments. Create a new payment from the Payments page."
+  },
+  "filters": {
+    "title": "Filters",
+    "dateRange": "Date range",
+    "provider": "Provider",
+    "status": "Status",
+    "apply": "Apply filters",
+    "reset": "Reset filters"
+  },
+  "meta": {
+    "lastUpdated": "Last updated",
+    "lastUpdatedAt": "Last updated at {{time}}"
+  }
+}

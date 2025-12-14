@@ -1,0 +1,177 @@
+{
+  "title": "Pagos",
+  "subtitle": "Crea y revisa pagos simulados en varios proveedores.",
+  "page": {
+    "intro": "Crea pagos simulados y revisa su ciclo de vida en diferentes proveedores.",
+    "shortcuts": "Atajos de teclado: Ctrl+Shift+N para ir al formulario de creación, Ctrl+Shift+L para ir a la lista de pagos."
+  },
+  "create": {
+    "title": "Crear pago",
+    "subtitle": "Simula un nuevo pago usando uno de los proveedores disponibles.",
+    "submit": "Crear pago",
+    "submitting": "Creando pago…",
+    "success": {
+      "title": "Pago creado",
+      "body": "El pago simulado se ha creado correctamente."
+    },
+    "error": {
+      "title": "Error al crear el pago",
+      "generic": "No se pudo crear el pago. Inténtalo de nuevo."
+    }
+  },
+  "fields": {
+    "provider": {
+      "label": "Proveedor",
+      "placeholder": "Selecciona un proveedor",
+      "helper": "Elige qué pasarela de pago quieres simular."
+    },
+    "amount": {
+      "label": "Importe",
+      "placeholder": "Introduce el importe",
+      "helper": "Utiliza solo valores positivos. El simulador no cargará dinero real."
+    },
+    "currency": {
+      "label": "Divisa",
+      "placeholder": "Ej. IDR, USD, EUR",
+      "helper": "Código de divisa de tres letras."
+    },
+    "description": {
+      "label": "Descripción",
+      "placeholder": "Descripción breve de este pago",
+      "helper": "Se mostrará en los registros o en la interfaz del simulador."
+    },
+    "orderId": {
+      "label": "ID de pedido",
+      "placeholder": "Referencia única de pedido",
+      "helper": "Referencia opcional para enlazar este pago con tu sistema."
+    }
+  },
+  "form": {
+    "sectionTitle": "Crear pago",
+    "sectionDescription": "Enviar una nueva solicitud de pago al simulador de Webhook de pagos TenRusl.",
+    "provider": {
+      "label": "Proveedor",
+      "placeholder": "Selecciona un proveedor",
+      "help": "Elige qué pasarela de pago quieres simular."
+    },
+    "amount": {
+      "label": "Importe",
+      "placeholder": "Introduce el importe",
+      "help": "Importe total a cobrar. Usa la misma divisa que tengas configurada en el proveedor."
+    },
+    "currency": {
+      "label": "Divisa",
+      "placeholder": "Ej. IDR, USD, EUR",
+      "help": "Código de divisa de tres letras."
+    },
+    "description": {
+      "label": "Descripción",
+      "placeholder": "Descripción breve para este pago",
+      "help": "Se muestra en el panel del proveedor y en el payload del webhook."
+    },
+    "orderId": {
+      "label": "ID de pedido",
+      "placeholder": "Referencia única de pedido",
+      "help": "Puedes usar tu propio ID de pedido interno o número de referencia."
+    },
+    "metadata": {
+      "label": "Metadatos",
+      "placeholder": "Metadatos JSON opcionales",
+      "help": "Campos extra para incluir en el payload del webhook (deben ser JSON válido)."
+    },
+    "submit": "Crear pago",
+    "submitting": "Creando pago…"
+  },
+  "formValidation": {
+    "providerRequired": "Selecciona un proveedor.",
+    "amountRequired": "El importe es obligatorio.",
+    "amountPositive": "El importe debe ser mayor que cero.",
+    "currencyRequired": "La divisa es obligatoria.",
+    "orderIdRequired": "El ID de pedido es obligatorio.",
+    "metadataInvalidJson": "Los metadatos deben ser JSON válido."
+  },
+  "status": {
+    "all": "Todos los estados",
+    "created": "Creado",
+    "pending": "Pendiente",
+    "completed": "Completado",
+    "succeeded": "Completado",
+    "failed": "Fallido",
+    "cancelled": "Cancelado",
+    "canceled": "Cancelado",
+    "expired": "Expirado",
+    "refunded": "Reembolsado",
+    "partial_refund": "Reembolso parcial",
+    "chargeback": "Contracargo",
+    "unknown": "Desconocido"
+  },
+  "providers": {
+    "all": "Todos los proveedores",
+    "xendit": "Xendit",
+    "midtrans": "Midtrans",
+    "tripay": "Tripay",
+    "mock": "Mock",
+    "airwallex": "Airwallex",
+    "paypal": "PayPal",
+    "stripe": "Stripe",
+    "skrill": "Skrill",
+    "payoneer": "Payoneer",
+    "paddle": "Paddle",
+    "oy": "OY!",
+    "dana": "DANA",
+    "doku": "DOKU",
+    "lemonsqueezy": "Lemon Squeezy",
+    "amazon_bwp": "Amazon BWP"
+  },
+  "filters": {
+    "title": "Filtros",
+    "provider": {
+      "label": "Proveedor",
+      "placeholder": "Todos los proveedores"
+    },
+    "status": {
+      "label": "Estado",
+      "placeholder": "Todos los estados"
+    },
+    "dateRange": "Rango de fechas",
+    "dateFrom": {
+      "label": "Desde"
+    },
+    "dateTo": {
+      "label": "Hasta"
+    },
+    "search": "Buscar",
+    "searchPlaceholder": "Buscar por ID, referencia del proveedor o descripción",
+    "reset": "Restablecer filtros"
+  },
+  "table": {
+    "title": "Pagos",
+    "subtitle": "Lista de pagos simulados creados mediante la demo de webhook.",
+    "empty": "No se encontraron pagos. Ajusta los filtros o crea un nuevo pago.",
+    "columns": {
+      "id": "ID",
+      "provider": "Proveedor",
+      "providerRef": "Referencia del proveedor",
+      "amount": "Importe",
+      "currency": "Divisa",
+      "status": "Estado",
+      "createdAt": "Creado el",
+      "updatedAt": "Actualizado el",
+      "actions": "Acciones"
+    },
+    "actions": {
+      "view": "Ver",
+      "refresh": "Actualizar estado",
+      "refreshAria": "Actualizar estado del pago",
+      "refreshing": "Actualizando…",
+      "refreshStatus": "Actualizar estado",
+      "copyId": "Copiar ID"
+    }
+  },
+  "details": {
+    "title": "Detalles del pago",
+    "webhookSectionTitle": "Eventos de webhook",
+    "noWebhooks": "Todavía no se han recibido eventos de webhook para este pago.",
+    "openInProvider": "Abrir en el panel del proveedor"
+  }
+}

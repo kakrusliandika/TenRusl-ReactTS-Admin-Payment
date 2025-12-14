@@ -1,0 +1,52 @@
+{
+  "title": "概要",
+  "subtitle": "決済アクティビティを俯瞰するハイレベルなスナップショットです。",
+  "cards": {
+    "totalPayments": {
+      "label": "総決済数",
+      "helpText": "シミュレーターを通じて作成されたすべての決済。"
+    },
+    "completed": {
+      "label": "完了",
+      "helpText": "正常に処理された決済。"
+    },
+    "pending": {
+      "label": "保留中",
+      "helpText": "まだ確認待ちの決済。"
+    },
+    "failed": {
+      "label": "失敗",
+      "helpText": "完了できなかった決済。"
+    },
+    "volume": {
+      "label": "決済ボリューム",
+      "helpText": "すべてのプロバイダーを合算した決済金額。"
+    }
+  },
+  "charts": {
+    "byProvider": {
+      "title": "プロバイダー別ボリューム",
+      "empty": "プロバイダー別の集計データはまだありません。"
+    },
+    "byCurrency": {
+      "title": "通貨別ボリューム",
+      "empty": "通貨別の集計データはまだありません。"
+    }
+  },
+  "recent": {
+    "title": "最近の決済",
+    "empty": "最近の決済がありません。[決済] ページから新しい決済を作成してください。"
+  },
+  "filters": {
+    "title": "フィルター",
+    "dateRange": "日付範囲",
+    "provider": "プロバイダー",
+    "status": "ステータス",
+    "apply": "フィルターを適用",
+    "reset": "フィルターをリセット"
+  },
+  "meta": {
+    "lastUpdated": "最終更新",
+    "lastUpdatedAt": "{{time}} に最終更新"
+  }
+}

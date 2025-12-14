@@ -1,0 +1,61 @@
+{
+  "appName": "TenRusl แอดมิน",
+  "appDescription": "คอนโซลแอดมินสำหรับ TenRusl Payment Webhook Simulator.",
+  "layout": {
+    "skipToContent": "ข้ามไปยังเนื้อหาหลัก",
+    "sidebarTitle": "เมนูนำทาง",
+    "sidebarSubTitle": "ซิมูเลเตอร์ Webhook การชำระเงิน",
+    "themeToggle": "สลับโหมดสว่างและมืด",
+    "language": "ภาษา"
+  },
+  "nav": {
+    "dashboard": "แดชบอร์ด",
+    "payments": "การชำระเงิน",
+    "users": "ผู้ใช้"
+  },
+  "actions": {
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "close": "ปิด",
+    "retry": "ลองอีกครั้ง",
+    "refresh": "รีเฟรช",
+    "filter": "กรอง",
+    "clear": "ล้าง",
+    "export": "ส่งออก",
+    "view": "ดู",
+    "details": "รายละเอียด",
+    "back": "ย้อนกลับ"
+  },
+  "status": {
+    "active": "ใช้งานอยู่",
+    "inactive": "ไม่ใช้งาน",
+    "loading": "กำลังโหลด",
+    "error": "ข้อผิดพลาด",
+    "success": "สำเร็จ",
+    "empty": "ยังไม่มีข้อมูล"
+  },
+  "table": {
+    "noData": "ไม่มีข้อมูลสำหรับแสดง",
+    "loading": "กำลังโหลดข้อมูล…",
+    "pageInfo": "หน้า {{current}} จาก {{total}}",
+    "rowsPerPage": "จำนวนแถวต่อหน้า"
+  },
+  "form": {
+    "required": "จำเป็นต้องกรอกช่องนี้",
+    "invalidEmail": "กรุณากรอกอีเมลให้ถูกต้อง",
+    "minLength": "กรุณากรอกอย่างน้อย {{min}} อักขระ",
+    "maxLength": "กรุณากรอกไม่เกิน {{max}} อักขระ",
+    "numberOnly": "กรุณากรอกเป็นตัวเลขที่ถูกต้อง",
+    "positiveNumber": "กรุณากรอกตัวเลขที่มากกว่า 0"
+  },
+  "toast": {
+    "successTitle": "สำเร็จ",
+    "errorTitle": "เกิดข้อผิดพลาด",
+    "paymentCreated": "สร้างการชำระเงินเรียบร้อยแล้ว",
+    "paymentUpdated": "อัปเดตการชำระเงินเรียบร้อยแล้ว",
+    "paymentFailed": "ไม่สามารถสร้างการชำระเงินได้",
+    "genericError": "เกิดข้อผิดพลาดที่ไม่คาดคิด กรุณาลองใหม่อีกครั้ง"
+  }
+}

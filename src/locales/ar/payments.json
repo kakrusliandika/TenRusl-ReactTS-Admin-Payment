@@ -1,0 +1,168 @@
+{
+  "title": "المدفوعات",
+  "subtitle": "إنشاء واستعراض مدفوعات تجريبية عبر مزودين متعددين.",
+  "page": {
+    "intro": "أنشئ مدفوعات تجريبية وتابع دورة حياة كل معاملة عبر مزودي الدفع المختلفين.",
+    "shortcuts": "اختصارات لوحة المفاتيح: ‏Ctrl+Shift+N للانتقال إلى نموذج الإنشاء، و‏Ctrl+Shift+L للانتقال إلى قائمة المدفوعات."
+  },
+  "create": {
+    "title": "إنشاء دفعة",
+    "subtitle": "حاكي دفعة جديدة باستخدام أحد مزودي الدفع المدعومين.",
+    "submit": "إنشاء دفعة",
+    "submitting": "جارٍ إنشاء الدفعة…",
+    "success": {
+      "title": "تم إنشاء الدفعة",
+      "body": "تم إنشاء الدفعة التجريبية بنجاح."
+    },
+    "error": {
+      "title": "فشل إنشاء الدفعة",
+      "generic": "تعذر إنشاء الدفعة. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "fields": {
+    "provider": {
+      "label": "المزود",
+      "placeholder": "اختر المزود"
+    },
+    "currency": {
+      "label": "العملة"
+    },
+    "amount": {
+      "label": "المبلغ",
+      "helper": "استخدم قيمًا موجبة فقط. المحاكي لن يخصم أموالًا حقيقية."
+    },
+    "orderId": {
+      "label": "معرّف الطلب",
+      "helper": "مرجع اختياري لربط هذه الدفعة بنظامك."
+    },
+    "description": {
+      "label": "الوصف",
+      "helper": "وصف اختياري يظهر في السجلات أو واجهة المحاكي."
+    }
+  },
+  "providers": {
+    "all": "جميع المزودين",
+    "xendit": "Xendit",
+    "midtrans": "Midtrans",
+    "tripay": "Tripay",
+    "mock": "مزود تجريبي",
+    "airwallex": "Airwallex",
+    "paypal": "PayPal",
+    "stripe": "Stripe",
+    "skrill": "Skrill",
+    "payoneer": "Payoneer",
+    "paddle": "Paddle",
+    "oy": "OY!",
+    "dana": "DANA",
+    "doku": "DOKU",
+    "lemonsqueezy": "Lemon Squeezy",
+    "amazon_bwp": "Amazon BWP"
+  },
+  "status": {
+    "created": "تم الإنشاء",
+    "pending": "قيد الانتظار",
+    "succeeded": "ناجحة",
+    "completed": "مكتملة",
+    "failed": "فاشلة",
+    "cancelled": "أُلغيت",
+    "canceled": "أُلغيت",
+    "expired": "منتهية الصلاحية",
+    "refunded": "مُستردة",
+    "partial_refund": "استرداد جزئي",
+    "chargeback": "استرجاع عبر البنك",
+    "success": "ناجحة",
+    "unknown": "غير معروف",
+    "all": "جميع الحالات"
+  },
+  "filters": {
+    "title": "الفلاتر",
+    "provider": {
+      "label": "المزود",
+      "placeholder": "جميع المزودين"
+    },
+    "status": {
+      "label": "الحالة",
+      "placeholder": "جميع الحالات"
+    },
+    "dateFrom": {
+      "label": "من تاريخ"
+    },
+    "dateTo": {
+      "label": "إلى تاريخ"
+    },
+    "search": "بحث",
+    "searchPlaceholder": "البحث حسب المعرّف أو مرجع المزود أو الوصف",
+    "reset": "إعادة تعيين الفلاتر"
+  },
+  "table": {
+    "title": "قائمة المدفوعات",
+    "subtitle": "قائمة المدفوعات التجريبية التي تم إنشاؤها عبر عرض Webhook.",
+    "empty": "لا توجد مدفوعات. جرّب تعديل الفلاتر أو إنشاء دفعة جديدة.",
+    "columns": {
+      "id": "المعرف",
+      "provider": "المزود",
+      "providerRef": "مرجع المزود",
+      "amount": "المبلغ",
+      "currency": "العملة",
+      "status": "الحالة",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "actions": "الإجراءات"
+    }
+  },
+  "tableActions": {
+    "view": "عرض",
+    "refreshStatus": "تحديث الحالة",
+    "copyId": "نسخ المعرّف"
+  },
+  "details": {
+    "title": "تفاصيل الدفعة",
+    "webhookSectionTitle": "أحداث Webhook",
+    "noWebhooks": "لم يتم استلام أي أحداث Webhook بعد لهذه الدفعة.",
+    "openInProvider": "فتح في لوحة تحكم المزود"
+  },
+  "form": {
+    "sectionTitle": "إنشاء دفعة",
+    "sectionDescription": "إرسال طلب دفع جديد إلى محاكي Webhook لمدفوعات TenRusl.",
+    "provider": {
+      "label": "المزود",
+      "placeholder": "اختر مزودًا",
+      "help": "اختر بوابة الدفع التي تريد محاكاتها."
+    },
+    "amount": {
+      "label": "المبلغ",
+      "placeholder": "أدخل المبلغ",
+      "help": "المبلغ الكلي المطلوب خصمه. استخدم نفس العملة المُهيّأة لدى المزود."
+    },
+    "currency": {
+      "label": "العملة",
+      "placeholder": "مثل: IDR ،USD ،EUR",
+      "help": "رمز العملة من ثلاثة أحرف."
+    },
+    "description": {
+      "label": "الوصف",
+      "placeholder": "وصف قصير لهذه الدفعة",
+      "help": "يظهر في لوحة المزود وحمولة Webhook."
+    },
+    "orderId": {
+      "label": "معرّف الطلب",
+      "placeholder": "مرجع طلب فريد",
+      "help": "يمكنك استخدام معرّف الطلب الداخلي أو رقم مرجعي من نظامك."
+    },
+    "metadata": {
+      "label": "بيانات إضافية (Metadata)",
+      "placeholder": "بيانات JSON اختيارية",
+      "help": "حقول إضافية لإرسالها مع حمولة Webhook (يجب أن تكون JSON صالحًا)."
+    },
+    "submit": "إنشاء دفعة",
+    "submitting": "جارٍ إنشاء الدفعة…"
+  },
+  "formValidation": {
+    "providerRequired": "يرجى اختيار مزود.",
+    "amountRequired": "المبلغ مطلوب.",
+    "amountPositive": "يجب أن يكون المبلغ أكبر من الصفر.",
+    "currencyRequired": "العملة مطلوبة.",
+    "orderIdRequired": "معرّف الطلب مطلوب.",
+    "metadataInvalidJson": "يجب أن تكون البيانات الإضافية JSON صالحًا."
+  }
+}

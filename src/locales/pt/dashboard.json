@@ -1,0 +1,52 @@
+{
+  "title": "Visão geral",
+  "subtitle": "Visão geral da sua atividade de pagamentos.",
+  "cards": {
+    "totalPayments": {
+      "label": "Total de pagamentos",
+      "helpText": "Todos os pagamentos criados pelo simulador."
+    },
+    "completed": {
+      "label": "Concluídos",
+      "helpText": "Pagamentos processados com sucesso."
+    },
+    "pending": {
+      "label": "Pendentes",
+      "helpText": "Pagamentos que ainda aguardam confirmação."
+    },
+    "failed": {
+      "label": "Falhos",
+      "helpText": "Pagamentos que não puderam ser concluídos."
+    },
+    "volume": {
+      "label": "Volume de pagamentos",
+      "helpText": "Valor total de pagamentos em todos os provedores."
+    }
+  },
+  "charts": {
+    "byProvider": {
+      "title": "Volume por provedor",
+      "empty": "Ainda não há dados para distribuição por provedor."
+    },
+    "byCurrency": {
+      "title": "Volume por moeda",
+      "empty": "Ainda não há dados para distribuição por moeda."
+    }
+  },
+  "recent": {
+    "title": "Pagamentos recentes",
+    "empty": "Nenhum pagamento recente. Crie um novo pagamento na página de Pagamentos."
+  },
+  "filters": {
+    "title": "Filtros",
+    "dateRange": "Período",
+    "provider": "Provedor",
+    "status": "Status",
+    "apply": "Aplicar filtros",
+    "reset": "Limpar filtros"
+  },
+  "meta": {
+    "lastUpdated": "Última atualização",
+    "lastUpdatedAt": "Última atualização em {{time}}"
+  }
+}

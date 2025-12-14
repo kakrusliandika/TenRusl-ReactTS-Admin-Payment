@@ -1,0 +1,61 @@
+{
+  "appName": "TenRusl Admin",
+  "appDescription": "Admin-Konsole für den TenRusl Payment Webhook Simulator.",
+  "layout": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "sidebarTitle": "Navigation",
+    "sidebarSubTitle": "Payment-Webhook-Simulator",
+    "themeToggle": "Hell-/Dunkelmodus umschalten",
+    "language": "Sprache"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "payments": "Zahlungen",
+    "users": "Benutzer"
+  },
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "retry": "Erneut versuchen",
+    "refresh": "Aktualisieren",
+    "filter": "Filtern",
+    "clear": "Zurücksetzen",
+    "export": "Exportieren",
+    "view": "Anzeigen",
+    "details": "Details",
+    "back": "Zurück"
+  },
+  "status": {
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "loading": "Wird geladen…",
+    "error": "Fehler",
+    "success": "Erfolgreich",
+    "empty": "Keine Daten vorhanden"
+  },
+  "table": {
+    "noData": "Keine Daten zum Anzeigen",
+    "loading": "Daten werden geladen…",
+    "pageInfo": "Seite {{current}} von {{total}}",
+    "rowsPerPage": "Zeilen pro Seite"
+  },
+  "form": {
+    "required": "Dieses Feld ist erforderlich.",
+    "invalidEmail": "Bitte eine gültige E-Mail-Adresse eingeben.",
+    "minLength": "Bitte mindestens {{min}} Zeichen eingeben.",
+    "maxLength": "Bitte höchstens {{max}} Zeichen eingeben.",
+    "numberOnly": "Bitte eine gültige Zahl eingeben.",
+    "positiveNumber": "Bitte eine positive Zahl eingeben."
+  },
+  "toast": {
+    "successTitle": "Erfolg",
+    "errorTitle": "Etwas ist schiefgelaufen",
+    "paymentCreated": "Zahlung wurde erstellt.",
+    "paymentUpdated": "Zahlung wurde aktualisiert.",
+    "paymentFailed": "Zahlung konnte nicht erstellt werden.",
+    "genericError": "Es ist ein unerwarteter Fehler aufgetreten. Bitte versuche es erneut."
+  }
+}

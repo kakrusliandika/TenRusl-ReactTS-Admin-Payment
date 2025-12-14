@@ -1,0 +1,93 @@
+{
+  "title": "支付",
+  "subtitle": "在多个服务商之间创建和查看模拟支付。",
+  "form": {
+    "sectionTitle": "创建支付",
+    "sectionDescription": "向 TenRusl 支付 Webhook 模拟器发送新的支付请求。",
+    "provider": {
+      "label": "服务商",
+      "placeholder": "选择服务商",
+      "help": "选择要模拟的支付网关。"
+    },
+    "amount": {
+      "label": "金额",
+      "placeholder": "输入金额",
+      "help": "要扣款的总金额，请使用与服务商配置一致的货币。"
+    },
+    "currency": {
+      "label": "货币",
+      "placeholder": "例如：IDR、USD、EUR",
+      "help": "三位字母的货币代码。"
+    },
+    "description": {
+      "label": "描述",
+      "placeholder": "此支付的简短描述",
+      "help": "会显示在服务商后台和 Webhook 负载中。"
+    },
+    "orderId": {
+      "label": "订单号",
+      "placeholder": "唯一订单编号",
+      "help": "可以使用您自己的内部订单号或引用编号。"
+    },
+    "metadata": {
+      "label": "元数据",
+      "placeholder": "可选的 JSON 元数据",
+      "help": "要包含在 Webhook 负载中的额外字段（必须是有效 JSON）。"
+    },
+    "submit": "创建支付",
+    "submitting": "正在创建支付…"
+  },
+  "formValidation": {
+    "providerRequired": "请选择服务商。",
+    "amountRequired": "金额为必填项。",
+    "amountPositive": "金额必须大于 0。",
+    "currencyRequired": "货币为必填项。",
+    "orderIdRequired": "订单号为必填项。",
+    "metadataInvalidJson": "元数据必须是有效的 JSON。"
+  },
+  "status": {
+    "created": "已创建",
+    "pending": "待处理",
+    "completed": "已完成",
+    "failed": "失败",
+    "cancelled": "已取消",
+    "expired": "已过期",
+    "refunded": "已退款",
+    "chargeback": "拒付",
+    "unknown": "未知"
+  },
+  "filters": {
+    "title": "筛选条件",
+    "provider": "服务商",
+    "status": "状态",
+    "dateRange": "日期范围",
+    "search": "搜索",
+    "searchPlaceholder": "按 ID、服务商参考号或描述搜索"
+  },
+  "table": {
+    "title": "支付列表",
+    "empty": "暂时还没有支付。请先通过上方表单创建新支付。",
+    "columns": {
+      "id": "ID",
+      "provider": "服务商",
+      "providerRef": "服务商参考号",
+      "amount": "金额",
+      "currency": "货币",
+      "status": "状态",
+      "createdAt": "创建时间",
+      "updatedAt": "更新时间",
+      "actions": "操作"
+    },
+    "actions": {
+      "view": "查看",
+      "refreshStatus": "刷新状态",
+      "copyId": "复制 ID"
+    }
+  },
+  "details": {
+    "title": "支付详情",
+    "webhookSectionTitle": "Webhook 事件",
+    "noWebhooks": "该支付尚未收到任何 Webhook 事件。",
+    "openInProvider": "在服务商后台中打开"
+  }
+}

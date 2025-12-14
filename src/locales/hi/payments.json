@@ -1,0 +1,118 @@
+{
+  "title": "पेमेंट्स",
+  "subtitle": "कई प्रोवाइडर्स में सिम्युलेटेड पेमेंट्स बनाएँ और देखें।",
+  "page": {
+    "intro": "अलग-अलग पेमेंट प्रोवाइडर्स पर उनके जीवनचक्र को देखने के लिए सिम्युलेटेड पेमेंट्स बनाएं।",
+    "shortcuts": "कीबोर्ड शॉर्टकट: फॉर्म पर जाने के लिए Ctrl+Shift+N, पेमेंट्स लिस्ट पर जाने के लिए Ctrl+Shift+L।"
+  },
+  "create": {
+    "title": "पेमेंट बनाएँ",
+    "subtitle": "सपोर्टेड प्रोवाइडर्स में से किसी एक का उपयोग करके नया सिम्युलेटेड पेमेंट भेजें।",
+    "submit": "पेमेंट बनाएँ",
+    "submitting": "पेमेंट बनाया जा रहा है…",
+    "success": {
+      "title": "पेमेंट बना दिया गया",
+      "body": "सिम्युलेटेड पेमेंट सफलतापूर्वक बना दिया गया है।"
+    },
+    "error": {
+      "title": "पेमेंट बनाना असफल",
+      "generic": "पेमेंट बनाने में विफल। कृपया दोबारा प्रयास करें।"
+    }
+  },
+  "fields": {
+    "provider": {
+      "label": "प्रोवाइडर",
+      "placeholder": "प्रोवाइडर चुनें",
+      "helper": "जिस पेमेंट गेटवे को आप सिम्युलेट करना चाहते हैं, उसे चुनें।"
+    },
+    "amount": {
+      "label": "राशि",
+      "placeholder": "राशि दर्ज करें",
+      "helper": "केवल धनात्मक मान का उपयोग करें। सिम्युलेटर वास्तविक पैसे चार्ज नहीं करेगा।"
+    },
+    "currency": {
+      "label": "मुद्रा",
+      "placeholder": "जैसे IDR, USD, EUR",
+      "helper": "तीन अक्षरों वाला मुद्रा कोड।"
+    },
+    "description": {
+      "label": "विवरण",
+      "placeholder": "इस पेमेंट का संक्षिप्त विवरण",
+      "helper": "लॉग्स या सिम्युलेटर UI में दिखाया जाएगा।"
+    },
+    "orderId": {
+      "label": "ऑर्डर आईडी",
+      "placeholder": "अद्वितीय ऑर्डर संदर्भ",
+      "helper": "आप अपने सिस्टम की आंतरिक ऑर्डर आईडी या रेफरेंस नंबर का उपयोग कर सकते हैं।"
+    }
+  },
+  "providers": {
+    "all": "सभी प्रोवाइडर",
+    "xendit": "Xendit",
+    "midtrans": "Midtrans",
+    "tripay": "Tripay",
+    "mock": "Mock",
+    "airwallex": "Airwallex",
+    "paypal": "PayPal",
+    "stripe": "Stripe",
+    "skrill": "Skrill",
+    "payoneer": "Payoneer",
+    "paddle": "Paddle",
+    "oy": "OY!",
+    "dana": "DANA",
+    "doku": "DOKU",
+    "lemonsqueezy": "Lemon Squeezy",
+    "amazon_bwp": "Amazon BWP"
+  },
+  "status": {
+    "all": "सभी स्थिति",
+    "created": "बनाया गया",
+    "pending": "पेंडिंग",
+    "completed": "पूर्ण",
+    "succeeded": "सफल",
+    "failed": "फेल्ड",
+    "cancelled": "रद्द",
+    "canceled": "रद्द",
+    "expired": "एक्सपायर",
+    "refunded": "रिफंड किया गया",
+    "partial_refund": "आंशिक रिफंड",
+    "chargeback": "चार्जबैक",
+    "processing": "प्रोसेस हो रहा है",
+    "unknown": "अज्ञात"
+  },
+  "filters": {
+    "provider": {
+      "label": "प्रोवाइडर",
+      "placeholder": "सभी प्रोवाइडर"
+    },
+    "status": {
+      "label": "स्टेटस",
+      "placeholder": "सभी स्टेटस"
+    },
+    "dateFrom": {
+      "label": "से (तिथि)"
+    },
+    "dateTo": {
+      "label": "तक (तिथि)"
+    },
+    "reset": "फ़िल्टर रीसेट करें"
+  },
+  "table": {
+    "title": "पेमेंट्स",
+    "subtitle": "वेबहुक डेमो के माध्यम से बनाए गए सिम्युलेटेड पेमेंट्स की सूची।",
+    "empty": "कोई पेमेंट नहीं मिला। फ़िल्टर बदलें या नया पेमेंट बनाएँ।",
+    "columns": {
+      "id": "आईडी",
+      "provider": "प्रोवाइडर",
+      "providerRef": "प्रोवाइडर रेफरेंस",
+      "amount": "राशि",
+      "status": "स्टेटस",
+      "createdAt": "बनाए जाने का समय"
+    },
+    "actions": {
+      "refresh": "स्टेटस रिफ़्रेश करें",
+      "refreshing": "रिफ़्रेश हो रहा है…",
+      "refreshAria": "पेमेंट स्टेटस रिफ़्रेश करें"
+    }
+  }
+}

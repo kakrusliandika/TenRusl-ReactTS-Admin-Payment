@@ -132,6 +132,10 @@ Pastikan backend TenRusl berjalan dan dapat diakses dari browser / dev server.
 npm install
 ```
 
+```bash
+npm install -D @tailwindcss/postcss
+```
+
 ### 4. Jalankan dev server
 
 ```bash
@@ -151,6 +155,9 @@ Dari `package.json`:
 
 - `npm run build`  
   Build project untuk production (`dist/`) dengan TypeScript build check.
+
+- `npm i -D @testing-library/jest-dom`  
+  Import @testing-library/jest-dom/vitest (sesuai rekomendasi Testing Library untuk Vitest).
 
 - `npm run preview`  
   Menjalankan preview server untuk hasil build.

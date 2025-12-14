@@ -1,0 +1,61 @@
+{
+  "appName": "TenRusl Admin",
+  "appDescription": "Consola de administración para el simulador de Webhook de pagos TenRusl.",
+  "layout": {
+    "skipToContent": "Saltar al contenido principal",
+    "sidebarTitle": "Navegación",
+    "sidebarSubTitle": "Simulador de Webhook de pagos",
+    "themeToggle": "Cambiar entre tema claro y oscuro",
+    "language": "Idioma"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "payments": "Pagos",
+    "users": "Usuarios"
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "retry": "Reintentar",
+    "refresh": "Actualizar",
+    "filter": "Filtrar",
+    "clear": "Limpiar",
+    "export": "Exportar",
+    "view": "Ver",
+    "details": "Detalles",
+    "back": "Volver"
+  },
+  "status": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "loading": "Cargando",
+    "error": "Error",
+    "success": "Correcto",
+    "empty": "No hay datos disponibles"
+  },
+  "table": {
+    "noData": "No hay datos para mostrar",
+    "loading": "Cargando datos…",
+    "pageInfo": "Página {{current}} de {{total}}",
+    "rowsPerPage": "Filas por página"
+  },
+  "form": {
+    "required": "Este campo es obligatorio.",
+    "invalidEmail": "Introduce una dirección de correo válida.",
+    "minLength": "Introduce al menos {{min}} caracteres.",
+    "maxLength": "No introduzcas más de {{max}} caracteres.",
+    "numberOnly": "Introduce un número válido.",
+    "positiveNumber": "Introduce un número positivo."
+  },
+  "toast": {
+    "successTitle": "Correcto",
+    "errorTitle": "Ha ocurrido un problema",
+    "paymentCreated": "El pago ha sido creado.",
+    "paymentUpdated": "El pago ha sido actualizado.",
+    "paymentFailed": "No se ha podido crear el pago.",
+    "genericError": "Ha ocurrido un error inesperado. Inténtalo de nuevo."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "title": "概览",
+  "subtitle": "您的支付活动的高层视图。",
+  "cards": {
+    "totalPayments": {
+      "label": "支付总数",
+      "helpText": "通过模拟器创建的所有支付。"
+    },
+    "completed": {
+      "label": "已完成",
+      "helpText": "已成功处理的支付。"
+    },
+    "pending": {
+      "label": "待处理",
+      "helpText": "仍在等待确认的支付。"
+    },
+    "failed": {
+      "label": "失败",
+      "helpText": "未能完成的支付。"
+    },
+    "volume": {
+      "label": "支付总额",
+      "helpText": "所有服务商的支付总金额。"
+    }
+  },
+  "charts": {
+    "byProvider": {
+      "title": "按服务商的交易额",
+      "empty": "暂无按服务商划分的数据。"
+    },
+    "byCurrency": {
+      "title": "按货币的交易额",
+      "empty": "暂无按货币划分的数据。"
+    }
+  },
+  "recent": {
+    "title": "最近的支付",
+    "empty": "暂无最近支付。请在“支付”页面创建新的支付。"
+  },
+  "filters": {
+    "title": "筛选条件",
+    "dateRange": "日期范围",
+    "provider": "服务商",
+    "status": "状态",
+    "apply": "应用筛选",
+    "reset": "重置筛选"
+  },
+  "meta": {
+    "lastUpdated": "最近更新时间",
+    "lastUpdatedAt": "最近更新于 {{time}}"
+  }
+}
